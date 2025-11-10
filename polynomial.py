@@ -22,7 +22,6 @@ def horner_eval(coeffs, x):
 coeffs = [3, 2, -5, 7] # 3x*3 + 2x*2 - 5x + 7
 print(horner_eval(coeffs, 2))
 
-
 def naive_eval(coeffs, x):
     result = 0
     for i in range(len(coeffs)):
