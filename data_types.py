@@ -29,7 +29,5 @@ print("my_dic:", my_dic)
 # set:
 my_set = {25,10,11,200,7}
 print("my_set:", my_set)
-# 1. Integer: Represents whole numbers, e.g., 1, -5, 42C:\Users\DELL\Downloads\satya_files\data_types.py
-
 
 
