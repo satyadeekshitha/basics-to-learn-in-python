@@ -18,6 +18,9 @@
 # 4. Set: An unordered collection of unique items, e.g., {1, 2, 3}, {"apple", "banana", "cherry"}
 # In python, in the varible if x = 8 it doesnt mean x is equal to 8 it means x "gets" 8 or x "becomes" 8 or x " is assigned to" 8 etc 
 # but it is not equal to  lhs( left hand side) and rhs ( right hand side) are not same in python
+# Example:
+x = 8  # Here, x is assigned the value 8
+
 
 
 

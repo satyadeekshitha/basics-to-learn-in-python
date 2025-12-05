@@ -1,3 +1,5 @@
+# function is the block of code which is used to perform a specific task
+# function is defined by using def keyword
 def sub(x,y):
     z = x-y
     return z
