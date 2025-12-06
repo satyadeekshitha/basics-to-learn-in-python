@@ -8,8 +8,14 @@ def naive_eval(coeffs, x):
         result += coeffs[i] *  (x ** i)
     return result
 coeffs = [7, -5, 2, 3] # here range is used to give value of i like x^0
-#here in coffs the highest power is at the end 
+#here in coeffs highest power is at the end 
 print(naive_eval(coeffs, 2) )
+
+# to reverse the order of coeffs lengths:
+coeffs = [7, -5, 2, 3]
+forward_coeffs = list(range(len(coeffs)))
+reversed_coeffs = forward_coeffs[::-1]
+print(reversed_coeffs)
 
 # do the same thing again
 
