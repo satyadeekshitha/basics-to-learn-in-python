@@ -1,12 +1,12 @@
 t = int(input())
-mum = t
+num = t
 sum = 0
 
 while(t!=0):
   a = t % 10
   sum = sum + a
   t = int (t /10)
-  print(f"the sum is {sum}")
+  print(f"the sum is {sum}") # input 123 output 6
 
 # reverse the number:
 t = int(input())
@@ -20,5 +20,5 @@ while(t!= 0):
 if(rev == num):
   print("the number is palindrome")
 else:
-  print("the number is not palindrome")
+  print("the number is not palindrome") # input 121 output palindrome and 123 output not palindrome
     

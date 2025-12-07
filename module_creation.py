@@ -14,8 +14,8 @@ add = add(5,4)
 sub = sub(14,15) 
 mul = mul(9,14)
 div = div(45,5)
-print("addition",add)
-print("subraction",sub)
-print("multiplication",mul)
-print("division",div)
+print("addition",add) # prints 9
+print("subraction",sub) # prints -1
+print("multiplication",mul) # prints 126
+print("division",div) # prints 9.0
 # This is a simple arithmetic module of python which can be created and implemented by anyone.

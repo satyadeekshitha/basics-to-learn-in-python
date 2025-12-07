@@ -5,6 +5,7 @@ first = 0
 second = 1
 next = first + second
 count = 2
+print(first,second)
 while(count < n):
     first = second
     second = next
@@ -24,7 +25,7 @@ n = int(input())
 
 result = fibonacci(n)
 
-print(result)
+print(result) # input 7 output 13 if input is 8 output is 21
 
     
     
